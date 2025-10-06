@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 //se aplica el patron singleton para manejar la matricula de estudiantes
 public class SistemaMatricula {
-    private static SistemaMatricula instancia;
+    private static SistemaMatricula instancia;// Instancia unica de la clase
     private List<Estudiante> estudiantes = new ArrayList<>();
     private List<Materia> materias = new ArrayList<>();
 
